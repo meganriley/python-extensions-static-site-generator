@@ -164,7 +164,7 @@ def test_extensions_load_directory_module1(parse):
         )
         .exists()
     )
-'''
+
     assert (
         load_module_call_exists
     ), "Are you calling `load_module` and passing the correct parameters?"
@@ -184,7 +184,7 @@ def test_extensions_load_bundled_module1(parse):
     load_bundled_exists = load_bundled.exists()
 
     assert load_bundled_exists, "Are you defining a function called `load_bundled`?"
-
+'''
     load_bundled_assign_exists = load_bundled.assign_to().match(
         {
             "targets_0_id": "directory",
