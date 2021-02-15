@@ -63,7 +63,7 @@ def test_extensions_sys_path_module1(parse):
         insert_call_exists
     ), "Are you calling `sys.path.insert` and passing the correct parameters?"
 
-'''
+
 @pytest.mark.test_extensions_import_pop_module1
 def test_extensions_import_pop_module1(parse):
 
@@ -110,8 +110,7 @@ def test_extensions_import_pop_module1(parse):
     assert (
         pop_call_exists
     ), "Are you calling `sys.path.pop` and passing the correct parameters?"
-
-
+'''
 @pytest.mark.test_extensions_load_directory_module1
 def test_extensions_load_directory_module1(parse):
 
