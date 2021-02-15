@@ -240,8 +240,7 @@ def test_site_load_bundled_module1(parse):
         )
         .exists()
     )
-'''
+
     assert (
         load_bundled_call_exists
     ), "Are you calling `extensions.load_bundled()` in the `build` method?"
-'''
