@@ -63,7 +63,7 @@ def test_extensions_sys_path_module1(parse):
         insert_call_exists
     ), "Are you calling `sys.path.insert` and passing the correct parameters?"
 
-
+'''
 @pytest.mark.test_extensions_import_pop_module1
 def test_extensions_import_pop_module1(parse):
 
@@ -245,3 +245,4 @@ def test_site_load_bundled_module1(parse):
     assert (
         load_bundled_call_exists
     ), "Are you calling `extensions.load_bundled()` in the `build` method?"
+'''
