@@ -68,7 +68,7 @@ def test_hooks_register_decorator_module2(parse):
     assert (
         returns_register_callback
     ), "Are you returning `register_callback` from the `register` function?"
-
+'''
 
 @pytest.mark.test_hooks_callbacks_default_module2
 def test_hooks_callbacks_default_module2(parse):
@@ -278,3 +278,4 @@ def test_hooks_filter_hook_module2(parse):
 
     returns_value = filter_call.returns("value")
     assert returns_value, "Are you returning `value` from the `filter` function?"
+'''
