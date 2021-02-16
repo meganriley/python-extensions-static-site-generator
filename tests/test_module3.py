@@ -94,7 +94,7 @@ def test_menu_collect_files_module3(parse):
         valid
     ), "Are you creating a variable called `valid` set equal to a `lambda` that has an argument `p`? In the body are you testing if `p` is an instance of `parsers.ResourceParser`?"
 
-
+'''
 @pytest.mark.test_menu_for_build_list_module3
 def test_menu_for_build_list_module3(parse):
 
@@ -584,3 +584,4 @@ def test_parsers_rst_menu_filter_module3(parse):
     assert (
         self_write_exists
     ), "Are you calling `self.write()` and passing in `path`, `dest`,  and `filtered`?"
+'''
