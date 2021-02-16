@@ -204,7 +204,7 @@ def test_menu_for_build_list_module3(parse):
     assert (
         files_append_exists
     ), "Are you testing if `path.suffix` is a valid file extension with `parser.valid_file_ext()`?"
-'''
+
 
 @pytest.mark.test_menu_generate_menu_module3
 def test_menu_generate_menu_module3(parse):
@@ -259,7 +259,7 @@ def test_menu_generate_menu_module3(parse):
         template
     ), "Are you creating a variable called `template` and setting it equal to `'<li><a href=\"{}{}\">{}</a></li>'`?"
 
-
+'''
 @pytest.mark.test_menu_lambda_module3
 def test_menu_lambda_module3(parse):
 
