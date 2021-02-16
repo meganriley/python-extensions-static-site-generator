@@ -193,7 +193,7 @@ def test_hooks_event_hook_module2(parse):
 
     assert func_call_exists, "Are you calling `func` passing in `*args`?"
 
-'''
+
 @pytest.mark.test_hooks_filter_hook_module2
 def test_hooks_filter_hook_module2(parse):
 
@@ -278,4 +278,3 @@ def test_hooks_filter_hook_module2(parse):
 
     returns_value = filter_call.returns("value")
     assert returns_value, "Are you returning `value` from the `filter` function?"
-'''
