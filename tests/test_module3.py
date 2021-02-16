@@ -94,7 +94,7 @@ def test_menu_collect_files_module3(parse):
         valid
     ), "Are you creating a variable called `valid` set equal to a `lambda` that has an argument `p`? In the body are you testing if `p` is an instance of `parsers.ResourceParser`?"
 
-'''
+
 @pytest.mark.test_menu_for_build_list_module3
 def test_menu_for_build_list_module3(parse):
 
@@ -204,7 +204,7 @@ def test_menu_for_build_list_module3(parse):
     assert (
         files_append_exists
     ), "Are you testing if `path.suffix` is a valid file extension with `parser.valid_file_ext()`?"
-
+'''
 
 @pytest.mark.test_menu_generate_menu_module3
 def test_menu_generate_menu_module3(parse):
