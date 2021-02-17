@@ -401,7 +401,7 @@ def test_menu_list_template_module3(parse):
         menu_item
     ), 'Are you returning the string `"<ul>\\n{}</ul>\\n{}"` with a call to `format()` appended. Are you passing `menu` and `html` to `format()`?'
 
-'''
+
 @pytest.mark.test_site_collect_files_event_module3
 def test_site_collect_files_event_module3(parse):
 
@@ -584,4 +584,3 @@ def test_parsers_rst_menu_filter_module3(parse):
     assert (
         self_write_exists
     ), "Are you calling `self.write()` and passing in `path`, `dest`,  and `filtered`?"
-'''
