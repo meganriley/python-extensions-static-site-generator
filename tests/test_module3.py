@@ -363,7 +363,7 @@ def test_menu_names_module3(parse):
     assert (
         menu_item
     ), 'Are you creating a variable called `menu` set equal to a call to `"\\n".join()`? Are you passing a list comprehension to `join()`? Do you have an iterator of `path in files`? As the result do you have a call to `menu_item()` passing in `path.stem` and `ext`?'
-'''
+
 
 @pytest.mark.test_menu_list_template_module3
 def test_menu_list_template_module3(parse):
@@ -401,7 +401,7 @@ def test_menu_list_template_module3(parse):
         menu_item
     ), 'Are you returning the string `"<ul>\\n{}</ul>\\n{}"` with a call to `format()` appended. Are you passing `menu` and `html` to `format()`?'
 
-
+'''
 @pytest.mark.test_site_collect_files_event_module3
 def test_site_collect_files_event_module3(parse):
 
