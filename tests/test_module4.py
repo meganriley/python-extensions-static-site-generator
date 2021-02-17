@@ -271,7 +271,7 @@ def test_stats_average_time_module4(parse):
         average
     ), "Are you creating a variable called `average` set equal to `final_time` divided by `total_written if total_written else 0`?"
 
-'''
+
 @pytest.mark.test_stats_report_module4
 def test_stats_report_module4(parse):
 
@@ -396,7 +396,7 @@ def test_site_stats_events_module4(parse):
     assert (
         stats_location
     ), 'Is the `"stats"` event on the last line of the `build` method?'
-
+'''
 
 @pytest.mark.test_parsers_written_events_module4
 def test_parsers_written_events_module4(parse):
