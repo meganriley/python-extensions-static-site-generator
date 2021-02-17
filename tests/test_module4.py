@@ -396,7 +396,7 @@ def test_site_stats_events_module4(parse):
     assert (
         stats_location
     ), 'Is the `"stats"` event on the last line of the `build` method?'
-'''
+
 
 @pytest.mark.test_parsers_written_events_module4
 def test_parsers_written_events_module4(parse):
@@ -440,4 +440,3 @@ def test_parsers_written_events_module4(parse):
     assert (
         written_rst_location
     ), 'Is the `"written"` event the last line of the `ReStructuredTextParser` `parse` method?'
-'''
