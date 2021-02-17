@@ -271,7 +271,7 @@ def test_stats_average_time_module4(parse):
         average
     ), "Are you creating a variable called `average` set equal to `final_time` divided by `total_written if total_written else 0`?"
 
-
+'''
 @pytest.mark.test_stats_report_module4
 def test_stats_report_module4(parse):
 
@@ -440,3 +440,4 @@ def test_parsers_written_events_module4(parse):
     assert (
         written_rst_location
     ), 'Is the `"written"` event the last line of the `ReStructuredTextParser` `parse` method?'
+'''
