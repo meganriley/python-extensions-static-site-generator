@@ -259,7 +259,7 @@ def test_menu_generate_menu_module3(parse):
         template
     ), "Are you creating a variable called `template` and setting it equal to `'<li><a href=\"{}{}\">{}</a></li>'`?"
 
-'''
+
 @pytest.mark.test_menu_lambda_module3
 def test_menu_lambda_module3(parse):
 
@@ -311,7 +311,7 @@ def test_menu_lambda_module3(parse):
         menu_item
     ), "Are you creating a variable called `menu_item` set equal to a `lambda` that has two arguments `name` and `ext`? In the body are you calling `format()` on `template`? Are you passing `name`, `ext`, and `name.title()` to `format()`?"
 
-
+'''
 @pytest.mark.test_menu_names_module3
 def test_menu_names_module3(parse):
 
