@@ -311,7 +311,7 @@ def test_menu_lambda_module3(parse):
         menu_item
     ), "Are you creating a variable called `menu_item` set equal to a `lambda` that has two arguments `name` and `ext`? In the body are you calling `format()` on `template`? Are you passing `name`, `ext`, and `name.title()` to `format()`?"
 
-'''
+
 @pytest.mark.test_menu_names_module3
 def test_menu_names_module3(parse):
 
@@ -363,7 +363,7 @@ def test_menu_names_module3(parse):
     assert (
         menu_item
     ), 'Are you creating a variable called `menu` set equal to a call to `"\\n".join()`? Are you passing a list comprehension to `join()`? Do you have an iterator of `path in files`? As the result do you have a call to `menu_item()` passing in `path.stem` and `ext`?'
-
+'''
 
 @pytest.mark.test_menu_list_template_module3
 def test_menu_list_template_module3(parse):
